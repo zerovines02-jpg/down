@@ -1,1 +1,12 @@
-
+{
+  "name": "instagram-downloader-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend API for authorized public Instagram media processing",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "start": "node api/download.js"
+  }
+}
